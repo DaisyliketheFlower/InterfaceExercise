@@ -52,7 +52,7 @@ namespace InterfaceExercise
                 HasLeatherSeats = true,
                 HasSteeringWheel = true,
                 HasStereo = true,
-                HasSunRoof = true,
+                HasSunroof = true,
                 HasTrunk = true,
                 HowManyWheels = -4,
                 Motto = "Best Brand X Ever !"
@@ -68,7 +68,7 @@ namespace InterfaceExercise
                 HasSunroof = false,
                 HasStereo = false,
                 HowManyWheels = 4,
-                HasTruckBed = true,
+                TruckBed = true,
                 CorpName = "Landscarpers Inc",
                 Motto = "Trimming hedges"
             };

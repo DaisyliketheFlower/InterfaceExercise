@@ -1,15 +1,15 @@
 ﻿using System;
 namespace InterfaceExercise
 {
-	public class Truck : IVehicle, ICompany
-	{
-	
+    public class Truck : IVehicle, ICompany
+    {
+
         public Truck()
 
-		{
-			
-		}
-        public bool TruckBed { get; internal set; } 
+        {
+
+        }
+        public bool TruckBed { get; set; }
 
         public bool HasTowHook { get; set; }
 
@@ -19,7 +19,7 @@ namespace InterfaceExercise
 
         public bool HasStereo { get; set; }
 
-        public bool HasSunroof { get; internal set; }
+        public bool HasSunroof { get; set; }
 
         public int Year { get; set; }
 
@@ -31,7 +31,7 @@ namespace InterfaceExercise
 
         public string Motto { get; set; }
 
-
-
+    }
+}
 
 
